@@ -176,7 +176,7 @@ if (w.innerWidth > 950) {
 
   $asideOptioneswrapper[5].addEventListener("click", (e) => {
     e.preventDefault();
-    w.open("/assets/cvADCP.pdf");
+    w.open("#");
   });
 }
 
