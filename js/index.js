@@ -176,7 +176,6 @@ if (w.innerWidth > 950) {
 
   $asideOptioneswrapper[5].addEventListener("click", (e) => {
     e.preventDefault();
-    w.open("/assets/cvADCP.pdf");
   });
 }
 
@@ -232,6 +231,7 @@ function intersectionSections() {
       intersectingAndStyle($projects[0], "toRightSectionAnimate");
       intersectingAndStyle($projects[1], "toLeftSectionAnimate");
       intersectingAndStyle($projects[2], "toRightSectionAnimate");
+      intersectingAndStyle($projects[3], "toLeftSectionAnimate");
     });
   };
 
