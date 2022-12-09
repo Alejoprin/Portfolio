@@ -1,153 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Work+Sans:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Alejo's Website</title>
+    <meta name="description" content="Welcome to ADCP's web portfolio" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alejoprin.github.io/Portfolio/" />
+    <meta property="og:title" content="ADCP 🐺" />
+    <meta property="og:description" content="Welcome to ADCP's web portfolio" />
+    <meta
+      property="og:image"
+      content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png"
+    />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://alejoprin.github.io/Portfolio/"
+    />
+    <meta property="twitter:title" content="ADCP 🐺" />
+    <meta
+      property="twitter:description"
+      content="Welcome to ADCP's web portfolio"
+    />
+    <meta
+      property="twitter:image"
+      content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png"
+    />
+    <!-- whatsapp -->
+    <meta
+      property="og:image"
+      content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Work+Sans:wght@100;200;300;400;500;600;700;900&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Alejo's Website</title>
-  <meta name="description" content="Welcome to ADCP's web portfolio">
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://alejoprin.github.io/Portfolio/">
-  <meta property="og:title" content="ADCP 🐺">
-  <meta property="og:description" content="Welcome to ADCP's web portfolio">
-  <meta property="og:image" content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png">
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://alejoprin.github.io/Portfolio/">
-  <meta property="twitter:title" content="ADCP 🐺">
-  <meta property="twitter:description" content="Welcome to ADCP's web portfolio">
-  <meta property="twitter:image" content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png">
-  <!-- Para whatsapp -->
-  <meta property="og:image" content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png" />
-  <meta property="og:image:secure_url" content="https://alejoprin.github.io/Portfolio/assets/img/imageToMetaTags.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="300" />
-  <meta property="og:image:height" content="300" />
-</head>
+  <body>
+    <!-- LOADER -->
+    <section class="loader">
+      <div class="loader-dots-wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
 
-<body>
-  <!-- LOADER -->
-  <section class="loader">
-    <div class="loader-dots-wrapper">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+      <img src="./assets/img/meditate.png" alt="meditate image" />
+    </section>
 
-    <img src="./assets/img/meditate.png" alt="meditate image" />
-  </section>
+    <!-- SIDE-BAR -->
+    <aside class="aside" id="aside">
+      <div class="aside-top-wrapper">
+        <img class="logo" src="./assets/img/logo.png" alt="wolf logo" />
 
-  <!-- SIDE-BAR -->
-  <aside class="aside" id="aside">
-    <div class="aside-top-wrapper">
-      <img class="logo" src="./assets/img/logo.png" alt="wolf logo">
+        <nav>
+          <ul>
+            <li class="aside-options-wrapper">
+              <svg
+                viewBox="0 0 512 512"
+                symbol="nutIcon"
+                fill="#b4bccb"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="nutIcon">
+                  <path
+                    d="M422.9171,307.7019,389.3646,284.038a136.2519,136.2519,0,0,0,0-56.0756l33.5525-23.6639a20.4447,20.4447,0,0,0,5.9221-26.931L410.518,145.6329a20.4457,20.4457,0,0,0-26.2846-8.336L346.8147,154.591a135.9316,135.9316,0,0,0-48.4091-28.0564l-3.7217-40.94A20.4463,20.4463,0,0,0,274.3218,67H237.6781a20.446,20.446,0,0,0-20.3617,18.595l-3.7217,40.94a135.9266,135.9266,0,0,0-48.4091,28.0568l-37.4191-17.2945a20.4458,20.4458,0,0,0-26.2846,8.336L83.1607,177.3675a20.4444,20.4444,0,0,0,5.9225,26.931l33.5525,23.6643a136.2527,136.2527,0,0,0,0,56.0748L89.0832,307.7019a20.4443,20.4443,0,0,0-5.9225,26.931l18.3212,31.7342a20.4456,20.4456,0,0,0,26.2846,8.3364l37.4191-17.2945a135.9266,135.9266,0,0,0,48.4091,28.0568l3.7217,40.9392A20.4456,20.4456,0,0,0,237.6781,445h36.6437a20.446,20.446,0,0,0,20.3621-18.595l3.7217-40.9392a135.9316,135.9316,0,0,0,48.4091-28.0564l37.4187,17.2941a20.4455,20.4455,0,0,0,26.2846-8.3364l18.3212-31.7342A20.4446,20.4446,0,0,0,422.9171,307.7019ZM256,326a70,70,0,1,1,70-70A70,70,0,0,1,256,326Z"
+                  />
+                </g>
+              </svg>
+              <a class="aside-option" href="#skills">Skills</a>
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                enable-background="new 0 0 24 24"
+                fill="#b4bccb"
+                id="Layer_1"
+                version="1.0"
+                viewBox="0 0 24 24"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <circle cx="12" cy="8" r="4" />
+                <path d="M12,14c-6.1,0-8,4-8,4v2h16v-2C20,18,18.1,14,12,14z" />
+              </svg>
+              <a class="aside-option" href="#whoAmI">Who am I?</a>
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#b4bccb"
+              >
+                <title />
+                <g data-name="1" id="_1">
+                  <path
+                    d="M354.67,450h-107A15,15,0,0,1,236,425.68a33.18,33.18,0,0,0,7.22-20.81,33.59,33.59,0,0,0-67.17,0,33.18,33.18,0,0,0,7.22,20.81A15,15,0,0,1,171.48,450h-107a15,15,0,0,1-15-15V297.06a15,15,0,0,1,24-12,33.59,33.59,0,1,0,0-53.7,15,15,0,0,1-24-12V144.86a15,15,0,0,1,15-15h84.16a63.59,63.59,0,1,1,121.83,0h84.16a15,15,0,0,1,15,15v52.19a63.59,63.59,0,1,1,0,122.36V435A15,15,0,0,1,354.67,450Zm-83.32-30h68.32V294.48a15,15,0,0,1,25-11.18,33.59,33.59,0,1,0,0-50.14,15,15,0,0,1-25-11.18V159.86H245a15,15,0,0,1-10.93-25.27,33.59,33.59,0,1,0-48.91,0,15,15,0,0,1-10.93,25.27H79.52v36.36a64.45,64.45,0,0,1,14.2-1.58,63.59,63.59,0,1,1-14.2,125.59V420h68.32a63.59,63.59,0,1,1,123.51,0Z"
+                  />
+                </g>
+              </svg>
+              <a class="aside-option" href="#projects">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-      <nav>
-        <ul>
-          <li class="aside-options-wrapper">
-            <svg  viewBox="0 0 512 512" symbol="nutIcon" fill="#b4bccb"  xmlns="http://www.w3.org/2000/svg"><g id="nutIcon"><path d="M422.9171,307.7019,389.3646,284.038a136.2519,136.2519,0,0,0,0-56.0756l33.5525-23.6639a20.4447,20.4447,0,0,0,5.9221-26.931L410.518,145.6329a20.4457,20.4457,0,0,0-26.2846-8.336L346.8147,154.591a135.9316,135.9316,0,0,0-48.4091-28.0564l-3.7217-40.94A20.4463,20.4463,0,0,0,274.3218,67H237.6781a20.446,20.446,0,0,0-20.3617,18.595l-3.7217,40.94a135.9266,135.9266,0,0,0-48.4091,28.0568l-37.4191-17.2945a20.4458,20.4458,0,0,0-26.2846,8.336L83.1607,177.3675a20.4444,20.4444,0,0,0,5.9225,26.931l33.5525,23.6643a136.2527,136.2527,0,0,0,0,56.0748L89.0832,307.7019a20.4443,20.4443,0,0,0-5.9225,26.931l18.3212,31.7342a20.4456,20.4456,0,0,0,26.2846,8.3364l37.4191-17.2945a135.9266,135.9266,0,0,0,48.4091,28.0568l3.7217,40.9392A20.4456,20.4456,0,0,0,237.6781,445h36.6437a20.446,20.446,0,0,0,20.3621-18.595l3.7217-40.9392a135.9316,135.9316,0,0,0,48.4091-28.0564l37.4187,17.2941a20.4455,20.4455,0,0,0,26.2846-8.3364l18.3212-31.7342A20.4446,20.4446,0,0,0,422.9171,307.7019ZM256,326a70,70,0,1,1,70-70A70,70,0,0,1,256,326Z"/></g></svg>
-            <a class="aside-option" href="#skills">Skills</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg  enable-background="new 0 0 24 24" fill="#b4bccb" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="12" cy="8" r="4"/><path d="M12,14c-6.1,0-8,4-8,4v2h16v-2C20,18,18.1,14,12,14z"/></svg>
-            <a class="aside-option" href="#whoAmI">Who am I?</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg  viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#b4bccb"><title/><g data-name="1" id="_1"><path d="M354.67,450h-107A15,15,0,0,1,236,425.68a33.18,33.18,0,0,0,7.22-20.81,33.59,33.59,0,0,0-67.17,0,33.18,33.18,0,0,0,7.22,20.81A15,15,0,0,1,171.48,450h-107a15,15,0,0,1-15-15V297.06a15,15,0,0,1,24-12,33.59,33.59,0,1,0,0-53.7,15,15,0,0,1-24-12V144.86a15,15,0,0,1,15-15h84.16a63.59,63.59,0,1,1,121.83,0h84.16a15,15,0,0,1,15,15v52.19a63.59,63.59,0,1,1,0,122.36V435A15,15,0,0,1,354.67,450Zm-83.32-30h68.32V294.48a15,15,0,0,1,25-11.18,33.59,33.59,0,1,0,0-50.14,15,15,0,0,1-25-11.18V159.86H245a15,15,0,0,1-10.93-25.27,33.59,33.59,0,1,0-48.91,0,15,15,0,0,1-10.93,25.27H79.52v36.36a64.45,64.45,0,0,1,14.2-1.58,63.59,63.59,0,1,1-14.2,125.59V420h68.32a63.59,63.59,0,1,1,123.51,0Z"/></g></svg>
-            <a class="aside-option" href="#projects">Projects</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <button type="button" class="arrow-btn">
+        <span>🡸</span>
+      </button>
 
-    <button type="button" class="arrow-btn">
-      <span>🡸</span> 
-    </button>
+      <div class="aside-back-wrapper">
+        <nav>
+          <ul>
+            <li class="aside-options-wrapper">
+              <svg
+                enable-background="new 0 0 56.693 56.693"
+                fill="#b4bccb"
+                height="56.693px"
+                id="Layer_1"
+                version="1.1"
+                viewBox="0 0 56.693 56.693"
+                width="56.693px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"
+                  />
+                  <path
+                    d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"
+                  />
+                </g>
+              </svg>
+              <a
+                class="aside-option"
+                href="https://www.linkedin.com/in/alejandrocalderonprin/"
+                target="_blank"
+                rel="noopener"
+                >Linkedin</a
+              >
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                fill="#b4bccb"
+                height="25"
+                viewBox="0 0 25 25"
+                width="25"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M15.7481 24.9471C24.0901 24.7061 24.9111 22.9501 24.9111 12.9811C24.9111 1.98108 23.9111 0.981079 12.9111 0.981079C1.91113 0.981079 0.911133 1.98108 0.911133 12.9811C0.911133 22.9761 1.73713 24.7151 10.1391 24.9491C10.2121 24.8581 10.2391 24.7441 10.2391 24.6281C10.2391 24.3781 10.2291 21.8121 10.2241 20.9291C7.18713 21.5681 6.54613 19.5101 6.54613 19.5101C6.04913 18.2881 5.33313 17.9621 5.33313 17.9621C4.34213 17.3061 5.40813 17.3191 5.40813 17.3191C6.50413 17.3941 7.08113 18.4101 7.08113 18.4101C8.05513 20.0271 9.63713 19.5601 10.2591 19.2891C10.3581 18.6061 10.6401 18.1391 10.9521 17.8751C8.52713 17.6081 5.97813 16.7001 5.97813 12.6451C5.97813 11.4901 6.40413 10.5461 7.10213 9.80608C6.98913 9.53808 6.61513 8.46208 7.20913 7.00608C7.20913 7.00608 8.12613 6.72108 10.2121 8.09008C11.0831 7.85508 12.0171 7.73808 12.9461 7.73408C13.8731 7.73808 14.8071 7.85508 15.6801 8.09008C17.7651 6.72108 18.6801 7.00608 18.6801 7.00608C19.2761 8.46208 18.9011 9.53808 18.7881 9.80608C19.4881 10.5461 19.9111 11.4901 19.9111 12.6451C19.9111 16.7101 17.3581 17.6051 14.9251 17.8661C15.3171 18.1931 15.6661 18.8391 15.6661 19.8261C15.6661 20.7721 15.6601 22.4451 15.6561 23.5541C15.6541 24.1031 15.6531 24.5131 15.6531 24.6281C15.6531 24.7371 15.6821 24.8521 15.7481 24.9471V24.9471Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              <a
+                class="aside-option"
+                href="https://github.com/Alejoprin"
+                target="_blank"
+                rel="noopener"
+                >Github</a
+              >
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                fill="#b4bccb"
+                height="8.4666mm"
+                style="
+                  shape-rendering: geometricPrecision;
+                  text-rendering: geometricPrecision;
+                  image-rendering: optimizeQuality;
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                "
+                version="1.1"
+                viewBox="0 0 846.66 846.66"
+                width="8.4666mm"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs></defs>
+                <g id="Layer_x0020_1">
+                  <path
+                    class="fil0"
+                    d="M423.33 279.52c54.2,0 98.47,44.26 98.47,98.47l0 45.71c0,11.4 -9.25,20.65 -20.65,20.65l-155.64 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -45.71c0,-54.2 44.27,-98.47 98.47,-98.47zm-182.05 256.57c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm0 177.71c-27.16,0 -27.16,-41.29 0,-41.29l364.1 0c27.16,0 27.16,41.29 0,41.29l-364.1 0zm0 -88.85c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm-121.37 -614.55l465.97 0c5.7,0 10.86,2.31 14.6,6.05l140.87 140.87c4.03,4.03 6.05,9.32 6.05,14.6l0 643.69c0,11.4 -9.25,20.65 -20.65,20.65l-606.84 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -784.56c0,-11.4 9.25,-20.65 20.65,-20.65zm457.42 41.29l-436.78 0 0 743.28 565.56 0 0 -614.5 -128.78 -128.78zm-154 57.32c45.98,0 83.25,37.28 83.25,83.26 0,45.97 -37.27,83.25 -83.25,83.25 -45.98,0 -83.25,-37.28 -83.25,-83.25 0,-45.98 37.27,-83.26 83.25,-83.26zm0 41.3c-23.18,0 -41.96,18.78 -41.96,41.96 0,23.17 18.78,41.96 41.96,41.96 23.18,0 41.96,-18.79 41.96,-41.96 0,-23.18 -18.78,-41.96 -41.96,-41.96zm0 170.5c-31.4,0 -57.18,25.77 -57.18,57.18l0 25.07 114.36 0 0 -25.07c0,-31.41 -25.78,-57.18 -57.18,-57.18z"
+                  />
+                </g>
+              </svg>
+              <a
+                class="aside-option"
+                href="https://alejoprin.github.io/Portfolio/assets/Alejandro_Calderon_Prin_CV.pdf"
+                target="_blank"
+                >CV</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-    <div class="aside-back-wrapper">
-      <nav>
-        <ul>
-          <li class="aside-options-wrapper">
-            <svg enable-background="new 0 0 56.693 56.693" fill="#b4bccb" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"/><path d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"/></g></svg>
-            <a class="aside-option" href="https://www.linkedin.com/in/alejandro-calderon-b527a1168/" target="_blank" rel="noopener">Linkedin</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg fill="#b4bccb" height="25" viewBox="0 0 25 25" width="25" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M15.7481 24.9471C24.0901 24.7061 24.9111 22.9501 24.9111 12.9811C24.9111 1.98108 23.9111 0.981079 12.9111 0.981079C1.91113 0.981079 0.911133 1.98108 0.911133 12.9811C0.911133 22.9761 1.73713 24.7151 10.1391 24.9491C10.2121 24.8581 10.2391 24.7441 10.2391 24.6281C10.2391 24.3781 10.2291 21.8121 10.2241 20.9291C7.18713 21.5681 6.54613 19.5101 6.54613 19.5101C6.04913 18.2881 5.33313 17.9621 5.33313 17.9621C4.34213 17.3061 5.40813 17.3191 5.40813 17.3191C6.50413 17.3941 7.08113 18.4101 7.08113 18.4101C8.05513 20.0271 9.63713 19.5601 10.2591 19.2891C10.3581 18.6061 10.6401 18.1391 10.9521 17.8751C8.52713 17.6081 5.97813 16.7001 5.97813 12.6451C5.97813 11.4901 6.40413 10.5461 7.10213 9.80608C6.98913 9.53808 6.61513 8.46208 7.20913 7.00608C7.20913 7.00608 8.12613 6.72108 10.2121 8.09008C11.0831 7.85508 12.0171 7.73808 12.9461 7.73408C13.8731 7.73808 14.8071 7.85508 15.6801 8.09008C17.7651 6.72108 18.6801 7.00608 18.6801 7.00608C19.2761 8.46208 18.9011 9.53808 18.7881 9.80608C19.4881 10.5461 19.9111 11.4901 19.9111 12.6451C19.9111 16.7101 17.3581 17.6051 14.9251 17.8661C15.3171 18.1931 15.6661 18.8391 15.6661 19.8261C15.6661 20.7721 15.6601 22.4451 15.6561 23.5541C15.6541 24.1031 15.6531 24.5131 15.6531 24.6281C15.6531 24.7371 15.6821 24.8521 15.7481 24.9471V24.9471Z" fill-rule="evenodd"/></svg>
-            <a class="aside-option" href="https://github.com/Alejoprin" target="_blank" rel="noopener">Github</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg fill="#b4bccb" height="8.4666mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" viewBox="0 0 846.66 846.66" width="8.4666mm" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><g id="Layer_x0020_1"><path class="fil0" d="M423.33 279.52c54.2,0 98.47,44.26 98.47,98.47l0 45.71c0,11.4 -9.25,20.65 -20.65,20.65l-155.64 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -45.71c0,-54.2 44.27,-98.47 98.47,-98.47zm-182.05 256.57c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm0 177.71c-27.16,0 -27.16,-41.29 0,-41.29l364.1 0c27.16,0 27.16,41.29 0,41.29l-364.1 0zm0 -88.85c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm-121.37 -614.55l465.97 0c5.7,0 10.86,2.31 14.6,6.05l140.87 140.87c4.03,4.03 6.05,9.32 6.05,14.6l0 643.69c0,11.4 -9.25,20.65 -20.65,20.65l-606.84 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -784.56c0,-11.4 9.25,-20.65 20.65,-20.65zm457.42 41.29l-436.78 0 0 743.28 565.56 0 0 -614.5 -128.78 -128.78zm-154 57.32c45.98,0 83.25,37.28 83.25,83.26 0,45.97 -37.27,83.25 -83.25,83.25 -45.98,0 -83.25,-37.28 -83.25,-83.25 0,-45.98 37.27,-83.26 83.25,-83.26zm0 41.3c-23.18,0 -41.96,18.78 -41.96,41.96 0,23.17 18.78,41.96 41.96,41.96 23.18,0 41.96,-18.79 41.96,-41.96 0,-23.18 -18.78,-41.96 -41.96,-41.96zm0 170.5c-31.4,0 -57.18,25.77 -57.18,57.18l0 25.07 114.36 0 0 -25.07c0,-31.41 -25.78,-57.18 -57.18,-57.18z"/></g></svg>
-            <a class="aside-option" href="#" target="_blank">CV</a>
-          </li>
-        </ul>
-      </nav>
+        <p>ADCP 2022</p>
+      </div>
+    </aside>
 
-      <p>ADCP 2022</p>
-    </div>
-  </aside>
+    <aside class="aside-mobile" id="aside-mobile">
+      <div class="aside-top-wrapper">
+        <img class="logo-mobile" src="./assets/img/logo.png" alt="wolf logo" />
 
-  <aside class="aside-mobile" id="aside-mobile">
-    <div class="aside-top-wrapper">
-      <img class="logo-mobile" src="./assets/img/logo.png" alt="wolf logo">
+        <nav>
+          <ul>
+            <li class="aside-options-wrapper">
+              <svg
+                viewBox="0 0 512 512"
+                symbol="nutIcon"
+                fill="#b4bccb"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="nutIcon">
+                  <path
+                    d="M422.9171,307.7019,389.3646,284.038a136.2519,136.2519,0,0,0,0-56.0756l33.5525-23.6639a20.4447,20.4447,0,0,0,5.9221-26.931L410.518,145.6329a20.4457,20.4457,0,0,0-26.2846-8.336L346.8147,154.591a135.9316,135.9316,0,0,0-48.4091-28.0564l-3.7217-40.94A20.4463,20.4463,0,0,0,274.3218,67H237.6781a20.446,20.446,0,0,0-20.3617,18.595l-3.7217,40.94a135.9266,135.9266,0,0,0-48.4091,28.0568l-37.4191-17.2945a20.4458,20.4458,0,0,0-26.2846,8.336L83.1607,177.3675a20.4444,20.4444,0,0,0,5.9225,26.931l33.5525,23.6643a136.2527,136.2527,0,0,0,0,56.0748L89.0832,307.7019a20.4443,20.4443,0,0,0-5.9225,26.931l18.3212,31.7342a20.4456,20.4456,0,0,0,26.2846,8.3364l37.4191-17.2945a135.9266,135.9266,0,0,0,48.4091,28.0568l3.7217,40.9392A20.4456,20.4456,0,0,0,237.6781,445h36.6437a20.446,20.446,0,0,0,20.3621-18.595l3.7217-40.9392a135.9316,135.9316,0,0,0,48.4091-28.0564l37.4187,17.2941a20.4455,20.4455,0,0,0,26.2846-8.3364l18.3212-31.7342A20.4446,20.4446,0,0,0,422.9171,307.7019ZM256,326a70,70,0,1,1,70-70A70,70,0,0,1,256,326Z"
+                  />
+                </g>
+              </svg>
+              <a class="aside-option-mobile" href="#skills">Skills</a>
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                enable-background="new 0 0 24 24"
+                fill="#b4bccb"
+                id="Layer_1"
+                version="1.0"
+                viewBox="0 0 24 24"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <circle cx="12" cy="8" r="4" />
+                <path d="M12,14c-6.1,0-8,4-8,4v2h16v-2C20,18,18.1,14,12,14z" />
+              </svg>
+              <a class="aside-option-mobile" href="#whoAmI">Who am I?</a>
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#b4bccb"
+              >
+                <title />
+                <g data-name="1" id="_1">
+                  <path
+                    d="M354.67,450h-107A15,15,0,0,1,236,425.68a33.18,33.18,0,0,0,7.22-20.81,33.59,33.59,0,0,0-67.17,0,33.18,33.18,0,0,0,7.22,20.81A15,15,0,0,1,171.48,450h-107a15,15,0,0,1-15-15V297.06a15,15,0,0,1,24-12,33.59,33.59,0,1,0,0-53.7,15,15,0,0,1-24-12V144.86a15,15,0,0,1,15-15h84.16a63.59,63.59,0,1,1,121.83,0h84.16a15,15,0,0,1,15,15v52.19a63.59,63.59,0,1,1,0,122.36V435A15,15,0,0,1,354.67,450Zm-83.32-30h68.32V294.48a15,15,0,0,1,25-11.18,33.59,33.59,0,1,0,0-50.14,15,15,0,0,1-25-11.18V159.86H245a15,15,0,0,1-10.93-25.27,33.59,33.59,0,1,0-48.91,0,15,15,0,0,1-10.93,25.27H79.52v36.36a64.45,64.45,0,0,1,14.2-1.58,63.59,63.59,0,1,1-14.2,125.59V420h68.32a63.59,63.59,0,1,1,123.51,0Z"
+                  />
+                </g>
+              </svg>
+              <a class="aside-option-mobile" href="#projects">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-      <nav>
-        <ul>
-          <li class="aside-options-wrapper">
-            <svg  viewBox="0 0 512 512" symbol="nutIcon" fill="#b4bccb"  xmlns="http://www.w3.org/2000/svg"><g id="nutIcon"><path d="M422.9171,307.7019,389.3646,284.038a136.2519,136.2519,0,0,0,0-56.0756l33.5525-23.6639a20.4447,20.4447,0,0,0,5.9221-26.931L410.518,145.6329a20.4457,20.4457,0,0,0-26.2846-8.336L346.8147,154.591a135.9316,135.9316,0,0,0-48.4091-28.0564l-3.7217-40.94A20.4463,20.4463,0,0,0,274.3218,67H237.6781a20.446,20.446,0,0,0-20.3617,18.595l-3.7217,40.94a135.9266,135.9266,0,0,0-48.4091,28.0568l-37.4191-17.2945a20.4458,20.4458,0,0,0-26.2846,8.336L83.1607,177.3675a20.4444,20.4444,0,0,0,5.9225,26.931l33.5525,23.6643a136.2527,136.2527,0,0,0,0,56.0748L89.0832,307.7019a20.4443,20.4443,0,0,0-5.9225,26.931l18.3212,31.7342a20.4456,20.4456,0,0,0,26.2846,8.3364l37.4191-17.2945a135.9266,135.9266,0,0,0,48.4091,28.0568l3.7217,40.9392A20.4456,20.4456,0,0,0,237.6781,445h36.6437a20.446,20.446,0,0,0,20.3621-18.595l3.7217-40.9392a135.9316,135.9316,0,0,0,48.4091-28.0564l37.4187,17.2941a20.4455,20.4455,0,0,0,26.2846-8.3364l18.3212-31.7342A20.4446,20.4446,0,0,0,422.9171,307.7019ZM256,326a70,70,0,1,1,70-70A70,70,0,0,1,256,326Z"/></g></svg>
-            <a class="aside-option-mobile" href="#skills">Skills</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg  enable-background="new 0 0 24 24" fill="#b4bccb" id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="12" cy="8" r="4"/><path d="M12,14c-6.1,0-8,4-8,4v2h16v-2C20,18,18.1,14,12,14z"/></svg>
-            <a class="aside-option-mobile" href="#whoAmI">Who am I?</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg  viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#b4bccb"><title/><g data-name="1" id="_1"><path d="M354.67,450h-107A15,15,0,0,1,236,425.68a33.18,33.18,0,0,0,7.22-20.81,33.59,33.59,0,0,0-67.17,0,33.18,33.18,0,0,0,7.22,20.81A15,15,0,0,1,171.48,450h-107a15,15,0,0,1-15-15V297.06a15,15,0,0,1,24-12,33.59,33.59,0,1,0,0-53.7,15,15,0,0,1-24-12V144.86a15,15,0,0,1,15-15h84.16a63.59,63.59,0,1,1,121.83,0h84.16a15,15,0,0,1,15,15v52.19a63.59,63.59,0,1,1,0,122.36V435A15,15,0,0,1,354.67,450Zm-83.32-30h68.32V294.48a15,15,0,0,1,25-11.18,33.59,33.59,0,1,0,0-50.14,15,15,0,0,1-25-11.18V159.86H245a15,15,0,0,1-10.93-25.27,33.59,33.59,0,1,0-48.91,0,15,15,0,0,1-10.93,25.27H79.52v36.36a64.45,64.45,0,0,1,14.2-1.58,63.59,63.59,0,1,1-14.2,125.59V420h68.32a63.59,63.59,0,1,1,123.51,0Z"/></g></svg>
-            <a class="aside-option-mobile" href="#projects">Projects</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <button type="button" class="arrow-btn">
+        <span>🡸</span>
+      </button>
 
-    <button type="button" class="arrow-btn">
-      <span>🡸</span> 
-    </button>
+      <div class="aside-back-wrapper">
+        <nav>
+          <ul>
+            <li class="aside-options-wrapper">
+              <svg
+                enable-background="new 0 0 56.693 56.693"
+                fill="#b4bccb"
+                height="56.693px"
+                id="Layer_1"
+                version="1.1"
+                viewBox="0 0 56.693 56.693"
+                width="56.693px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"
+                  />
+                  <path
+                    d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"
+                  />
+                </g>
+              </svg>
+              <a
+                class="aside-option-mobile"
+                href="https://www.linkedin.com/in/alejandrocalderonprin/"
+                target="_blank"
+                rel="noopener"
+                >Linkedin</a
+              >
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                fill="#b4bccb"
+                height="25"
+                viewBox="0 0 25 25"
+                width="25"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M15.7481 24.9471C24.0901 24.7061 24.9111 22.9501 24.9111 12.9811C24.9111 1.98108 23.9111 0.981079 12.9111 0.981079C1.91113 0.981079 0.911133 1.98108 0.911133 12.9811C0.911133 22.9761 1.73713 24.7151 10.1391 24.9491C10.2121 24.8581 10.2391 24.7441 10.2391 24.6281C10.2391 24.3781 10.2291 21.8121 10.2241 20.9291C7.18713 21.5681 6.54613 19.5101 6.54613 19.5101C6.04913 18.2881 5.33313 17.9621 5.33313 17.9621C4.34213 17.3061 5.40813 17.3191 5.40813 17.3191C6.50413 17.3941 7.08113 18.4101 7.08113 18.4101C8.05513 20.0271 9.63713 19.5601 10.2591 19.2891C10.3581 18.6061 10.6401 18.1391 10.9521 17.8751C8.52713 17.6081 5.97813 16.7001 5.97813 12.6451C5.97813 11.4901 6.40413 10.5461 7.10213 9.80608C6.98913 9.53808 6.61513 8.46208 7.20913 7.00608C7.20913 7.00608 8.12613 6.72108 10.2121 8.09008C11.0831 7.85508 12.0171 7.73808 12.9461 7.73408C13.8731 7.73808 14.8071 7.85508 15.6801 8.09008C17.7651 6.72108 18.6801 7.00608 18.6801 7.00608C19.2761 8.46208 18.9011 9.53808 18.7881 9.80608C19.4881 10.5461 19.9111 11.4901 19.9111 12.6451C19.9111 16.7101 17.3581 17.6051 14.9251 17.8661C15.3171 18.1931 15.6661 18.8391 15.6661 19.8261C15.6661 20.7721 15.6601 22.4451 15.6561 23.5541C15.6541 24.1031 15.6531 24.5131 15.6531 24.6281C15.6531 24.7371 15.6821 24.8521 15.7481 24.9471V24.9471Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              <a
+                class="aside-option-mobile"
+                href="https://github.com/Alejoprin"
+                target="_blank"
+                rel="noopener"
+                >Github</a
+              >
+            </li>
+            <li class="aside-options-wrapper">
+              <svg
+                fill="#b4bccb"
+                height="8.4666mm"
+                style="
+                  shape-rendering: geometricPrecision;
+                  text-rendering: geometricPrecision;
+                  image-rendering: optimizeQuality;
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                "
+                version="1.1"
+                viewBox="0 0 846.66 846.66"
+                width="8.4666mm"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs></defs>
+                <g id="Layer_x0020_1">
+                  <path
+                    class="fil0"
+                    d="M423.33 279.52c54.2,0 98.47,44.26 98.47,98.47l0 45.71c0,11.4 -9.25,20.65 -20.65,20.65l-155.64 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -45.71c0,-54.2 44.27,-98.47 98.47,-98.47zm-182.05 256.57c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm0 177.71c-27.16,0 -27.16,-41.29 0,-41.29l364.1 0c27.16,0 27.16,41.29 0,41.29l-364.1 0zm0 -88.85c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm-121.37 -614.55l465.97 0c5.7,0 10.86,2.31 14.6,6.05l140.87 140.87c4.03,4.03 6.05,9.32 6.05,14.6l0 643.69c0,11.4 -9.25,20.65 -20.65,20.65l-606.84 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -784.56c0,-11.4 9.25,-20.65 20.65,-20.65zm457.42 41.29l-436.78 0 0 743.28 565.56 0 0 -614.5 -128.78 -128.78zm-154 57.32c45.98,0 83.25,37.28 83.25,83.26 0,45.97 -37.27,83.25 -83.25,83.25 -45.98,0 -83.25,-37.28 -83.25,-83.25 0,-45.98 37.27,-83.26 83.25,-83.26zm0 41.3c-23.18,0 -41.96,18.78 -41.96,41.96 0,23.17 18.78,41.96 41.96,41.96 23.18,0 41.96,-18.79 41.96,-41.96 0,-23.18 -18.78,-41.96 -41.96,-41.96zm0 170.5c-31.4,0 -57.18,25.77 -57.18,57.18l0 25.07 114.36 0 0 -25.07c0,-31.41 -25.78,-57.18 -57.18,-57.18z"
+                  />
+                </g>
+              </svg>
+              <a
+                class="aside-option-mobile"
+                href="https://alejoprin.github.io/Portfolio/assets/Alejandro_Calderon_Prin_CV.pdf"
+                target="_blank"
+                >CV</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-    <div class="aside-back-wrapper">
-      <nav>
-        <ul>
-          <li class="aside-options-wrapper">
-            <svg enable-background="new 0 0 56.693 56.693" fill="#b4bccb" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"/><path d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"/></g></svg>
-            <a class="aside-option-mobile" href="https://www.linkedin.com/in/alejandro-calderon-b527a1168/" target="_blank" rel="noopener">Linkedin</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg fill="#b4bccb" height="25" viewBox="0 0 25 25" width="25" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M15.7481 24.9471C24.0901 24.7061 24.9111 22.9501 24.9111 12.9811C24.9111 1.98108 23.9111 0.981079 12.9111 0.981079C1.91113 0.981079 0.911133 1.98108 0.911133 12.9811C0.911133 22.9761 1.73713 24.7151 10.1391 24.9491C10.2121 24.8581 10.2391 24.7441 10.2391 24.6281C10.2391 24.3781 10.2291 21.8121 10.2241 20.9291C7.18713 21.5681 6.54613 19.5101 6.54613 19.5101C6.04913 18.2881 5.33313 17.9621 5.33313 17.9621C4.34213 17.3061 5.40813 17.3191 5.40813 17.3191C6.50413 17.3941 7.08113 18.4101 7.08113 18.4101C8.05513 20.0271 9.63713 19.5601 10.2591 19.2891C10.3581 18.6061 10.6401 18.1391 10.9521 17.8751C8.52713 17.6081 5.97813 16.7001 5.97813 12.6451C5.97813 11.4901 6.40413 10.5461 7.10213 9.80608C6.98913 9.53808 6.61513 8.46208 7.20913 7.00608C7.20913 7.00608 8.12613 6.72108 10.2121 8.09008C11.0831 7.85508 12.0171 7.73808 12.9461 7.73408C13.8731 7.73808 14.8071 7.85508 15.6801 8.09008C17.7651 6.72108 18.6801 7.00608 18.6801 7.00608C19.2761 8.46208 18.9011 9.53808 18.7881 9.80608C19.4881 10.5461 19.9111 11.4901 19.9111 12.6451C19.9111 16.7101 17.3581 17.6051 14.9251 17.8661C15.3171 18.1931 15.6661 18.8391 15.6661 19.8261C15.6661 20.7721 15.6601 22.4451 15.6561 23.5541C15.6541 24.1031 15.6531 24.5131 15.6531 24.6281C15.6531 24.7371 15.6821 24.8521 15.7481 24.9471V24.9471Z" fill-rule="evenodd"/></svg>
-            <a class="aside-option-mobile" href="https://github.com/Alejoprin" target="_blank" rel="noopener">Github</a>
-          </li>
-          <li class="aside-options-wrapper">
-            <svg fill="#b4bccb" height="8.4666mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" viewBox="0 0 846.66 846.66" width="8.4666mm" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><g id="Layer_x0020_1"><path class="fil0" d="M423.33 279.52c54.2,0 98.47,44.26 98.47,98.47l0 45.71c0,11.4 -9.25,20.65 -20.65,20.65l-155.64 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -45.71c0,-54.2 44.27,-98.47 98.47,-98.47zm-182.05 256.57c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm0 177.71c-27.16,0 -27.16,-41.29 0,-41.29l364.1 0c27.16,0 27.16,41.29 0,41.29l-364.1 0zm0 -88.85c-27.16,0 -27.16,-41.3 0,-41.3l364.1 0c27.16,0 27.16,41.3 0,41.3l-364.1 0zm-121.37 -614.55l465.97 0c5.7,0 10.86,2.31 14.6,6.05l140.87 140.87c4.03,4.03 6.05,9.32 6.05,14.6l0 643.69c0,11.4 -9.25,20.65 -20.65,20.65l-606.84 0c-11.4,0 -20.65,-9.25 -20.65,-20.65l0 -784.56c0,-11.4 9.25,-20.65 20.65,-20.65zm457.42 41.29l-436.78 0 0 743.28 565.56 0 0 -614.5 -128.78 -128.78zm-154 57.32c45.98,0 83.25,37.28 83.25,83.26 0,45.97 -37.27,83.25 -83.25,83.25 -45.98,0 -83.25,-37.28 -83.25,-83.25 0,-45.98 37.27,-83.26 83.25,-83.26zm0 41.3c-23.18,0 -41.96,18.78 -41.96,41.96 0,23.17 18.78,41.96 41.96,41.96 23.18,0 41.96,-18.79 41.96,-41.96 0,-23.18 -18.78,-41.96 -41.96,-41.96zm0 170.5c-31.4,0 -57.18,25.77 -57.18,57.18l0 25.07 114.36 0 0 -25.07c0,-31.41 -25.78,-57.18 -57.18,-57.18z"/></g></svg>
-            <a class="aside-option-mobile" href="#" target="_blank">CV</a>
-          </li>
-        </ul>
-      </nav>
+        <p>ADCP 2022</p>
+      </div>
+    </aside>
 
-      <p>ADCP 2022</p>
-    </div>
-  </aside>
+    <div class="background-aside-mobile hidden"></div>
 
-  <div class="background-aside-mobile hidden"></div>
-
-  <main>
+    <main>
       <!-- HEADER MOBILE -->
       <div class="header">
         <button class="hamburger hamburger--spring" type="button">
@@ -156,9 +397,9 @@
           </span>
         </button>
 
-        <img src="./assets/img/logo.png" alt="">
+        <img src="./assets/img/logo.png" alt="" />
       </div>
-      
+
       <!--  INTRODUCTION -->
       <section id="introduction" class="introduction-section">
         <article class="introduction-article--left">
@@ -169,14 +410,26 @@
         <article class="introduction-article--right">
           <div class="line"></div>
 
-          <img class="btc-coin" src="./assets/img/btc animate.png" alt="bitcoin coin image">
+          <img
+            class="btc-coin"
+            src="./assets/img/btc animate.png"
+            alt="bitcoin coin image"
+          />
 
           <figure>
-            <img class="programing-img" src="./assets/img/Programing.png" alt="Programing image" />
+            <img
+              class="programing-img"
+              src="./assets/img/Programing.png"
+              alt="Programing image"
+            />
           </figure>
-          
+
           <div class="btc-price hidden">
-            <img class="btc-price-cloud" src="./assets/img/MessageCloud.png" alt="bitcoin price cloud">
+            <img
+              class="btc-price-cloud"
+              src="./assets/img/MessageCloud.png"
+              alt="bitcoin price cloud"
+            />
             <p class="btc-price-text"></p>
           </div>
         </article>
@@ -185,9 +438,21 @@
       <!-- SKILLS -->
       <section id="skills" class="skills-section">
         <div class="skills-btn-wrapper">
-          <button id="front-skills-btn" class="front-skills-btn">Front-end</button>
-          <button id="back-skills-btn" class="back-skills-btn skills-change-color">Back-end</button>
-          <button id="utils-skills-btn" class="utils-skills-btn skills-change-color">Utils</button>
+          <button id="front-skills-btn" class="front-skills-btn">
+            Front-end
+          </button>
+          <button
+            id="back-skills-btn"
+            class="back-skills-btn skills-change-color"
+          >
+            Back-end
+          </button>
+          <button
+            id="utils-skills-btn"
+            class="utils-skills-btn skills-change-color"
+          >
+            Utils
+          </button>
         </div>
 
         <div class="skills-info-wrapper">
@@ -269,13 +534,23 @@
         <h2 class="whoAmI-title">Who am I?</h2>
 
         <article class="whoAmI-info-left">
-          <p>My name is Alejandro Daniel Calderón Prin and I'm from Venezuela</p>
           <p>
-            Since February 2022 I'm training as a Front-end developer
+            My name is Alejandro Daniel Calderón Prin and I'm from Venezuela
           </p>
-          <p><a class="leyend-link" href="https://platzi.com/p/alejoprin/" target="_blank" rel="noopener">legend</a> student in platzi</p>
+          <p>Since February 2022 I'm training as a Front-end developer</p>
           <p>
-            Since I was 25 years old I work as a freelancer, developing solutions thanks to different technologies
+            <a
+              class="leyend-link"
+              href="https://platzi.com/p/alejoprin/"
+              target="_blank"
+              rel="noopener"
+              >legend</a
+            >
+            student in platzi
+          </p>
+          <p>
+            Since I was 25 years old I work as a freelancer, developing
+            solutions thanks to different technologies
           </p>
           <p>I have given courses on the use of Bitcoin with good practices</p>
         </article>
@@ -286,12 +561,20 @@
 
         <article class="whoAmI-info-right">
           <p>
-            Associate Degree In Computer Science / Bachelor of Science in Computer Engineering (thesis) / +100 Courses taken on different online platforms focused on web development - digital marketing - soft skills
+            Associate Degree In Computer Science / Bachelor of Science in
+            Computer Engineering (thesis) / +100 Courses taken on different
+            online platforms focused on web development - digital marketing -
+            soft skills
           </p>
-          <p>I follow the philosophy of continuous improvement, 1% better every day</p>
+          <p>
+            I follow the philosophy of continuous improvement, 1% better every
+            day
+          </p>
           <p>Low time preference</p>
           <p>
-            I try to lead a healthy life, combining sports and healthy food to compensate for how sedentary it can be to work from the computer for many hours a day
+            I try to lead a healthy life, combining sports and healthy food to
+            compensate for how sedentary it can be to work from the computer for
+            many hours a day
           </p>
         </article>
       </section>
@@ -388,9 +671,8 @@
           </div>
         </article>
       </section>
-  </main>
+    </main>
 
-  <script src="./js/index.js"></script>
-</body>
-
+    <script src="./js/index.js"></script>
+  </body>
 </html>
