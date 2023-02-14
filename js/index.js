@@ -227,6 +227,7 @@ function intersectionSections() {
       intersectingAndStyle($projects[1], "toLeftSectionAnimate");
       intersectingAndStyle($projects[2], "toRightSectionAnimate");
       intersectingAndStyle($projects[3], "toLeftSectionAnimate");
+      intersectingAndStyle($projects[4], "toRightSectionAnimate");
     });
   };
 
